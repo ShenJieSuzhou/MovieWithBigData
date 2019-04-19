@@ -12,6 +12,8 @@
 		E59FB0B622687B560009FB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59FB0B422687B560009FB36 /* Main.storyboard */; };
 		E59FB0B822687B580009FB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59FB0B722687B580009FB36 /* Assets.xcassets */; };
 		E59FB0BB22687B580009FB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59FB0B922687B580009FB36 /* LaunchScreen.storyboard */; };
+		E59FB0C52269BEB50009FB36 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FB0C42269BEB50009FB36 /* HomeViewController.swift */; };
+		E59FB0C72269C3240009FB36 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FB0C62269C3240009FB36 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E59FB0B722687B580009FB36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E59FB0BA22687B580009FB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E59FB0BC22687B580009FB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59FB0C42269BEB50009FB36 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E59FB0C62269C3240009FB36 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				E59FB0B022687B560009FB36 /* AppDelegate.swift */,
 				E59FB0B222687B560009FB36 /* ViewController.swift */,
+				E59FB0C42269BEB50009FB36 /* HomeViewController.swift */,
+				E59FB0C62269C3240009FB36 /* SettingViewController.swift */,
 				E59FB0B422687B560009FB36 /* Main.storyboard */,
 				E59FB0B722687B580009FB36 /* Assets.xcassets */,
 				E59FB0B922687B580009FB36 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				E59FB0B322687B560009FB36 /* ViewController.swift in Sources */,
 				E59FB0B122687B560009FB36 /* AppDelegate.swift in Sources */,
+				E59FB0C52269BEB50009FB36 /* HomeViewController.swift in Sources */,
+				E59FB0C72269C3240009FB36 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +291,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FLG9F2622;
 				INFOPLIST_FILE = MLMovies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jj.mlMovie.MLMovies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.mlMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +310,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FLG9F2622;
 				INFOPLIST_FILE = MLMovies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jj.mlMovie.MLMovies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.mlMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
