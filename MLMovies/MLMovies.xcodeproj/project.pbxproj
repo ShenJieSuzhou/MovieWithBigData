@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51ABA2122EAF72700449075 /* DoubanMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ABA2022EAF72700449075 /* DoubanMovies.swift */; };
 		E59FB0B122687B560009FB36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FB0B022687B560009FB36 /* AppDelegate.swift */; };
 		E59FB0B322687B560009FB36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FB0B222687B560009FB36 /* ViewController.swift */; };
 		E59FB0B622687B560009FB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59FB0B422687B560009FB36 /* Main.storyboard */; };
@@ -14,9 +15,14 @@
 		E59FB0BB22687B580009FB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59FB0B922687B580009FB36 /* LaunchScreen.storyboard */; };
 		E59FB0C52269BEB50009FB36 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FB0C42269BEB50009FB36 /* HomeViewController.swift */; };
 		E59FB0C72269C3240009FB36 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59FB0C62269C3240009FB36 /* SettingViewController.swift */; };
+		E5DA000A226DA8800043F17A /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DA0009226DA8800043F17A /* ProductViewController.swift */; };
+		E5DA000C226DB4FB0043F17A /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DA000B226DB4FB0043F17A /* ProductsTableViewController.swift */; };
+		E5DA000E226DB5D40043F17A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DA000D226DB5D40043F17A /* Product.swift */; };
+		E5DA0010226DC7620043F17A /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DA000F226DC7620043F17A /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E51ABA2022EAF72700449075 /* DoubanMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanMovies.swift; sourceTree = "<group>"; };
 		E59FB0AD22687B560009FB36 /* MLMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59FB0B022687B560009FB36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E59FB0B222687B560009FB36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +32,10 @@
 		E59FB0BC22687B580009FB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E59FB0C42269BEB50009FB36 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E59FB0C62269C3240009FB36 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E5DA0009226DA8800043F17A /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		E5DA000B226DB4FB0043F17A /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		E5DA000D226DB5D40043F17A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E5DA000F226DC7620043F17A /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,11 @@
 				E59FB0B222687B560009FB36 /* ViewController.swift */,
 				E59FB0C42269BEB50009FB36 /* HomeViewController.swift */,
 				E59FB0C62269C3240009FB36 /* SettingViewController.swift */,
+				E5DA0009226DA8800043F17A /* ProductViewController.swift */,
+				E5DA000B226DB4FB0043F17A /* ProductsTableViewController.swift */,
+				E5DA000D226DB5D40043F17A /* Product.swift */,
+				E5DA000F226DC7620043F17A /* ContactsViewController.swift */,
+				E51ABA2022EAF72700449075 /* DoubanMovies.swift */,
 				E59FB0B422687B560009FB36 /* Main.storyboard */,
 				E59FB0B722687B580009FB36 /* Assets.xcassets */,
 				E59FB0B922687B580009FB36 /* LaunchScreen.storyboard */,
@@ -142,9 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E59FB0B322687B560009FB36 /* ViewController.swift in Sources */,
+				E5DA000C226DB4FB0043F17A /* ProductsTableViewController.swift in Sources */,
 				E59FB0B122687B560009FB36 /* AppDelegate.swift in Sources */,
 				E59FB0C52269BEB50009FB36 /* HomeViewController.swift in Sources */,
+				E5DA000A226DA8800043F17A /* ProductViewController.swift in Sources */,
+				E5DA0010226DC7620043F17A /* ContactsViewController.swift in Sources */,
+				E51ABA2122EAF72700449075 /* DoubanMovies.swift in Sources */,
 				E59FB0C72269C3240009FB36 /* SettingViewController.swift in Sources */,
+				E5DA000E226DB5D40043F17A /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,17 +309,19 @@
 		E59FB0C022687B580009FB36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7FLG9F2622;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WSSN499SLU;
 				INFOPLIST_FILE = MLMovies/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jj.mlMovie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailgames.mlMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = UniversalSnailDev;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,17 +330,19 @@
 		E59FB0C122687B580009FB36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7FLG9F2622;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MLMovies/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jj.mlMovie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailgames.mlMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
